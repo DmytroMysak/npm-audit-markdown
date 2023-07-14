@@ -5,7 +5,7 @@
   "main": "dist/src/index.js",
   "type": "module",
   "bin": {
-    "npm-audit-markdown": "./dist/src/index.js"
+    "@netly/npm-audit-markdown": "./dist/src/index.js"
   },
   "files": [
     "bin",
