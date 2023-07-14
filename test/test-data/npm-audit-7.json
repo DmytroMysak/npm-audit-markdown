@@ -1,0 +1,160 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "ansi-regex": {
+      "name": "ansi-regex",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1070273,
+          "name": "ansi-regex",
+          "dependency": "ansi-regex",
+          "title": " Inefficient Regular Expression Complexity in chalk/ansi-regex",
+          "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+          "severity": "high",
+          "range": ">=3.0.0 <3.0.1"
+        },
+        {
+          "source": 1070275,
+          "name": "ansi-regex",
+          "dependency": "ansi-regex",
+          "title": " Inefficient Regular Expression Complexity in chalk/ansi-regex",
+          "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+          "severity": "high",
+          "range": ">=5.0.0 <5.0.1"
+        }
+      ],
+      "effects": [],
+      "range": "3.0.0 || 5.0.0",
+      "nodes": ["node_modules/npm/node_modules/cli-table3/node_modules/ansi-regex", "node_modules/npm/node_modules/string-width/node_modules/ansi-regex"],
+      "fixAvailable": true
+    },
+    "json-schema": {
+      "name": "json-schema",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067524,
+          "name": "json-schema",
+          "dependency": "json-schema",
+          "title": "json-schema is vulnerable to Prototype Pollution",
+          "url": "https://github.com/advisories/GHSA-896r-f27r-55mw",
+          "severity": "moderate",
+          "range": "<0.4.0"
+        }
+      ],
+      "effects": ["jsprim"],
+      "range": "<0.4.0",
+      "nodes": ["node_modules/npm/node_modules/json-schema"],
+      "fixAvailable": true
+    },
+    "jsprim": {
+      "name": "jsprim",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": ["json-schema"],
+      "effects": [],
+      "range": "0.3.0 - 1.4.1 || 2.0.0 - 2.0.1",
+      "nodes": ["node_modules/npm/node_modules/jsprim"],
+      "fixAvailable": true
+    },
+    "marked": {
+      "name": "marked",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1070025,
+          "name": "marked",
+          "dependency": "marked",
+          "title": "Inefficient Regular Expression Complexity in marked",
+          "url": "https://github.com/advisories/GHSA-5v2h-r2cx-5xgj",
+          "severity": "high",
+          "range": "<4.0.10"
+        }
+      ],
+      "effects": ["semantic-release"],
+      "range": "<4.0.10",
+      "nodes": ["node_modules/marked"],
+      "fixAvailable": {
+        "name": "semantic-release",
+        "version": "19.0.2",
+        "isSemVerMajor": true
+      }
+    },
+    "minimist": {
+      "name": "minimist",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067342,
+          "name": "minimist",
+          "dependency": "minimist",
+          "title": "Prototype Pollution in minimist",
+          "url": "https://github.com/advisories/GHSA-xvch-5gv4-984h",
+          "severity": "critical",
+          "range": "<1.2.6"
+        }
+      ],
+      "effects": [],
+      "range": "<1.2.6",
+      "nodes": ["node_modules/minimist"],
+      "fixAvailable": true
+    },
+    "node-fetch": {
+      "name": "node-fetch",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1070022,
+          "name": "node-fetch",
+          "dependency": "node-fetch",
+          "title": "node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+          "url": "https://github.com/advisories/GHSA-r683-j2x4-v87g",
+          "severity": "high",
+          "range": "<2.6.7"
+        }
+      ],
+      "effects": [],
+      "range": "<2.6.7",
+      "nodes": ["node_modules/node-fetch"],
+      "fixAvailable": true
+    },
+    "semantic-release": {
+      "name": "semantic-release",
+      "severity": "high",
+      "isDirect": true,
+      "via": ["marked"],
+      "effects": [],
+      "range": "9.0.0 - 18.0.1",
+      "nodes": ["node_modules/semantic-release"],
+      "fixAvailable": {
+        "name": "semantic-release",
+        "version": "19.0.2",
+        "isSemVerMajor": true
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 4,
+      "critical": 1,
+      "total": 7
+    },
+    "dependencies": {
+      "prod": 96,
+      "dev": 591,
+      "optional": 5,
+      "peer": 0,
+      "peerOptional": 0,
+      "total": 686
+    }
+  }
+}

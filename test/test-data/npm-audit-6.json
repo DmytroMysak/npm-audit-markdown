@@ -1,0 +1,469 @@
+{
+  "actions": [
+    {
+      "isMajor": true,
+      "action": "install",
+      "resolves": [
+        {
+          "id": 1070025,
+          "path": "semantic-release>marked",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        },
+        {
+          "id": 1070026,
+          "path": "semantic-release>marked",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "module": "semantic-release",
+      "target": "19.0.2"
+    },
+    {
+      "action": "update",
+      "resolves": [
+        {
+          "id": 1067342,
+          "path": "semantic-release>@semantic-release/npm>rc>minimist",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        },
+        {
+          "id": 1067342,
+          "path": "semantic-release>@semantic-release/npm>registry-auth-token>rc>minimist",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        },
+        {
+          "id": 1067342,
+          "path": "update-notifier>latest-version>package-json>registry-auth-token>rc>minimist",
+          "dev": false,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "module": "minimist",
+      "target": "1.2.6",
+      "depth": 6
+    },
+    {
+      "action": "update",
+      "resolves": [
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1067524,
+          "path": "semantic-release>@semantic-release/npm>npm>libnpmexec>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>cli-columns>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>npmlog>gauge>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070273,
+          "path": "semantic-release>@semantic-release/npm>npm>libnpmexec>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        },
+        {
+          "id": 1070275,
+          "path": "semantic-release>@semantic-release/npm>npm>cli-table3>string-width>strip-ansi>ansi-regex",
+          "dev": true,
+          "optional": false,
+          "bundled": true
+        }
+      ],
+      "module": "@semantic-release/npm",
+      "target": "8.0.3",
+      "depth": 2
+    },
+    {
+      "action": "update",
+      "resolves": [
+        {
+          "id": 1070022,
+          "path": "semantic-release>@semantic-release/github>@octokit/rest>@octokit/core>@octokit/request>node-fetch",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        },
+        {
+          "id": 1070022,
+          "path": "semantic-release>@semantic-release/github>@octokit/rest>@octokit/core>@octokit/graphql>@octokit/request>node-fetch",
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "module": "node-fetch",
+      "target": "2.6.7",
+      "depth": 7
+    }
+  ],
+  "advisories": {
+    "1067342": {
+      "findings": [
+        {
+          "version": "1.2.5",
+          "paths": [
+            "semantic-release>@semantic-release/npm>rc>minimist",
+            "semantic-release>@semantic-release/npm>registry-auth-token>rc>minimist",
+            "update-notifier>latest-version>package-json>registry-auth-token>rc>minimist"
+          ]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": "<1.2.6",
+      "module_name": "minimist",
+      "severity": "critical",
+      "github_advisory_id": "GHSA-xvch-5gv4-984h",
+      "cves": ["CVE-2021-44906"],
+      "access": "public",
+      "patched_versions": ">=1.2.6",
+      "cvss": {
+        "score": 9.8,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      "updated": "2022-04-04T21:39:39.000Z",
+      "recommendation": "Upgrade to version 1.2.6 or later",
+      "cwe": ["CWE-1321"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1067342,
+      "references": "- https://nvd.nist.gov/vuln/detail/CVE-2021-44906\n- https://github.com/substack/minimist/issues/164\n- https://github.com/substack/minimist/blob/master/index.js#L69\n- https://snyk.io/vuln/SNYK-JS-MINIMIST-559764\n- https://stackoverflow.com/questions/8588563/adding-custom-properties-to-a-function/20278068#20278068\n- https://github.com/Marynk/JavaScript-vulnerability-detection/blob/main/minimist%20PoC.zip\n- https://github.com/advisories/GHSA-xvch-5gv4-984h",
+      "created": "2022-03-18T00:01:09.000Z",
+      "reported_by": null,
+      "title": "Prototype Pollution in minimist",
+      "npm_advisory_id": null,
+      "overview": "Minimist <=1.2.5 is vulnerable to Prototype Pollution via file index.js, function setKey() (lines 69-95).",
+      "url": "https://github.com/advisories/GHSA-xvch-5gv4-984h"
+    },
+    "1067524": {
+      "findings": [
+        {
+          "version": "0.2.3",
+          "paths": [
+            "semantic-release>@semantic-release/npm>npm>node-gyp>request>http-signature>jsprim>json-schema",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+            "semantic-release>@semantic-release/npm>npm>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema",
+            "semantic-release>@semantic-release/npm>npm>libnpmexec>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>request>http-signature>jsprim>json-schema"
+          ]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": "<0.4.0",
+      "module_name": "json-schema",
+      "severity": "moderate",
+      "github_advisory_id": "GHSA-896r-f27r-55mw",
+      "cves": ["CVE-2021-3918"],
+      "access": "public",
+      "patched_versions": ">=0.4.0",
+      "cvss": {
+        "score": 9.8,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      "updated": "2021-11-19T20:16:17.000Z",
+      "recommendation": "Upgrade to version 0.4.0 or later",
+      "cwe": ["CWE-915", "CWE-1321"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1067524,
+      "references": "- https://nvd.nist.gov/vuln/detail/CVE-2021-3918\n- https://github.com/kriszyp/json-schema/commit/22f146111f541d9737e832823699ad3528ca7741\n- https://huntr.dev/bounties/bb6ccd63-f505-4e3a-b55f-cd2662c261a9\n- https://github.com/kriszyp/json-schema/commit/b62f1da1ff5442f23443d6be6a92d00e65cba93a\n- https://github.com/kriszyp/json-schema/commit/f6f6a3b02d667aa4ba2d5d50cc19208c4462abfa\n- https://github.com/advisories/GHSA-896r-f27r-55mw",
+      "created": "2021-11-19T20:16:17.000Z",
+      "reported_by": null,
+      "title": "json-schema is vulnerable to Prototype Pollution",
+      "npm_advisory_id": null,
+      "overview": "json-schema is vulnerable to Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')",
+      "url": "https://github.com/advisories/GHSA-896r-f27r-55mw"
+    },
+    "1070022": {
+      "findings": [
+        {
+          "version": "2.6.5",
+          "paths": [
+            "semantic-release>@semantic-release/github>@octokit/rest>@octokit/core>@octokit/request>node-fetch",
+            "semantic-release>@semantic-release/github>@octokit/rest>@octokit/core>@octokit/graphql>@octokit/request>node-fetch"
+          ]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": "<2.6.7",
+      "module_name": "node-fetch",
+      "severity": "high",
+      "github_advisory_id": "GHSA-r683-j2x4-v87g",
+      "cves": ["CVE-2022-0235"],
+      "access": "public",
+      "patched_versions": ">=2.6.7",
+      "cvss": {
+        "score": 8.8,
+        "vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+      },
+      "updated": "2022-04-19T19:03:26.000Z",
+      "recommendation": "Upgrade to version 2.6.7 or later",
+      "cwe": ["CWE-173", "CWE-200", "CWE-601"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1070022,
+      "references": "- https://nvd.nist.gov/vuln/detail/CVE-2022-0235\n- https://github.com/node-fetch/node-fetch/commit/36e47e8a6406185921e4985dcbeff140d73eaa10\n- https://huntr.dev/bounties/d26ab655-38d6-48b3-be15-f9ad6b6ae6f7\n- https://github.com/node-fetch/node-fetch/pull/1453\n- https://github.com/node-fetch/node-fetch/commit/5c32f002fdd65b1c6a8f1e3620210813d45c7e60\n- https://github.com/advisories/GHSA-r683-j2x4-v87g",
+      "created": "2022-01-21T23:55:52.000Z",
+      "reported_by": null,
+      "title": "node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "npm_advisory_id": null,
+      "overview": "node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "url": "https://github.com/advisories/GHSA-r683-j2x4-v87g"
+    },
+    "1070025": {
+      "findings": [
+        {
+          "version": "2.1.3",
+          "paths": ["semantic-release>marked"]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": "<4.0.10",
+      "module_name": "marked",
+      "severity": "high",
+      "github_advisory_id": "GHSA-5v2h-r2cx-5xgj",
+      "cves": ["CVE-2022-21681"],
+      "access": "public",
+      "patched_versions": ">=4.0.10",
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "updated": "2022-04-19T19:03:20.000Z",
+      "recommendation": "Upgrade to version 4.0.10 or later",
+      "cwe": ["CWE-1333"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1070025,
+      "references": "- https://github.com/markedjs/marked/security/advisories/GHSA-5v2h-r2cx-5xgj\n- https://nvd.nist.gov/vuln/detail/CVE-2022-21681\n- https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5\n- https://github.com/advisories/GHSA-5v2h-r2cx-5xgj",
+      "created": "2022-01-14T21:04:46.000Z",
+      "reported_by": null,
+      "title": "Inefficient Regular Expression Complexity in marked",
+      "npm_advisory_id": null,
+      "overview": "### Impact\n\n_What kind of vulnerability is it?_\n\nDenial of service.\n\nThe regular expression `inline.reflinkSearch` may cause catastrophic backtracking against some strings.\nPoC is the following.\n\n```javascript\nimport * as marked from 'marked';\n\nconsole.log(marked.parse(`[x]: x\n\n\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](`));\n```\n\n_Who is impacted?_\n\nAnyone who runs untrusted markdown through marked and does not use a worker with a time limit.\n\n### Patches\n\n_Has the problem been patched?_\n\nYes\n\n_What versions should users upgrade to?_\n\n4.0.10\n\n### Workarounds\n\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\nDo not run untrusted markdown through marked or run marked on a [worker](https://marked.js.org/using_advanced#workers) thread and set a reasonable time limit to prevent draining resources.\n\n### References\n\n_Are there any links users can visit to find out more?_\n\n- https://marked.js.org/using_advanced#workers\n- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [marked](https://github.com/markedjs/marked)\n",
+      "url": "https://github.com/advisories/GHSA-5v2h-r2cx-5xgj"
+    },
+    "1070026": {
+      "findings": [
+        {
+          "version": "2.1.3",
+          "paths": ["semantic-release>marked"]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": "<4.0.10",
+      "module_name": "marked",
+      "severity": "high",
+      "github_advisory_id": "GHSA-rrrm-qjm4-v8hf",
+      "cves": ["CVE-2022-21680"],
+      "access": "public",
+      "patched_versions": ">=4.0.10",
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "updated": "2022-04-19T19:03:20.000Z",
+      "recommendation": "Upgrade to version 4.0.10 or later",
+      "cwe": ["CWE-1333"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1070026,
+      "references": "- https://github.com/markedjs/marked/security/advisories/GHSA-rrrm-qjm4-v8hf\n- https://nvd.nist.gov/vuln/detail/CVE-2022-21680\n- https://github.com/markedjs/marked/commit/c4a3ccd344b6929afa8a1d50ac54a721e57012c0\n- https://github.com/markedjs/marked/releases/tag/v4.0.10\n- https://github.com/advisories/GHSA-rrrm-qjm4-v8hf",
+      "created": "2022-01-14T21:04:41.000Z",
+      "reported_by": null,
+      "title": "Inefficient Regular Expression Complexity in marked",
+      "npm_advisory_id": null,
+      "overview": "### Impact\n\n_What kind of vulnerability is it?_\n\nDenial of service.\n\nThe regular expression `block.def` may cause catastrophic backtracking against some strings.\nPoC is the following.\n\n```javascript\nimport * as marked from \"marked\";\n\nmarked.parse(`[x]:${' '.repeat(1500)}x ${' '.repeat(1500)} x`);\n```\n\n_Who is impacted?_\n\nAnyone who runs untrusted markdown through marked and does not use a worker with a time limit.\n\n### Patches\n\n_Has the problem been patched?_\n\nYes\n\n_What versions should users upgrade to?_\n\n4.0.10\n\n### Workarounds\n\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\nDo not run untrusted markdown through marked or run marked on a [worker](https://marked.js.org/using_advanced#workers) thread and set a reasonable time limit to prevent draining resources.\n\n### References\n\n_Are there any links users can visit to find out more?_\n\n- https://marked.js.org/using_advanced#workers\n- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [marked](https://github.com/markedjs/marked)\n",
+      "url": "https://github.com/advisories/GHSA-rrrm-qjm4-v8hf"
+    },
+    "1070273": {
+      "findings": [
+        {
+          "version": "3.0.0",
+          "paths": [
+            "semantic-release>@semantic-release/npm>npm>cli-columns>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>npmlog>gauge>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex",
+            "semantic-release>@semantic-release/npm>npm>libnpmexec>@npmcli/arborist>@npmcli/metavuln-calculator>pacote>@npmcli/run-script>node-gyp>npmlog>gauge>wide-align>string-width>strip-ansi>ansi-regex"
+          ]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": ">=3.0.0 <3.0.1",
+      "module_name": "ansi-regex",
+      "severity": "high",
+      "github_advisory_id": "GHSA-93q8-gq69-wqmw",
+      "cves": ["CVE-2021-3807"],
+      "access": "public",
+      "patched_versions": ">=3.0.1",
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "updated": "2022-05-02T21:01:45.000Z",
+      "recommendation": "Upgrade to version 3.0.1 or later",
+      "cwe": ["CWE-1333"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1070273,
+      "references": "- https://nvd.nist.gov/vuln/detail/CVE-2021-3807\n- https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9\n- https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994\n- https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311\n- https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908\n- https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774\n- https://github.com/chalk/ansi-regex/releases/tag/v6.0.1\n- https://www.oracle.com/security-alerts/cpuapr2022.html\n- https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+      "created": "2021-09-20T20:20:09.000Z",
+      "reported_by": null,
+      "title": " Inefficient Regular Expression Complexity in chalk/ansi-regex",
+      "npm_advisory_id": null,
+      "overview": "ansi-regex is vulnerable to Inefficient Regular Expression Complexity",
+      "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+    },
+    "1070275": {
+      "findings": [
+        {
+          "version": "5.0.0",
+          "paths": ["semantic-release>@semantic-release/npm>npm>cli-table3>string-width>strip-ansi>ansi-regex"]
+        }
+      ],
+      "metadata": null,
+      "vulnerable_versions": ">=5.0.0 <5.0.1",
+      "module_name": "ansi-regex",
+      "severity": "high",
+      "github_advisory_id": "GHSA-93q8-gq69-wqmw",
+      "cves": ["CVE-2021-3807"],
+      "access": "public",
+      "patched_versions": ">=5.0.1",
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "updated": "2022-05-02T21:01:45.000Z",
+      "recommendation": "Upgrade to version 5.0.1 or later",
+      "cwe": ["CWE-1333"],
+      "found_by": null,
+      "deleted": null,
+      "id": 1070275,
+      "references": "- https://nvd.nist.gov/vuln/detail/CVE-2021-3807\n- https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9\n- https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994\n- https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311\n- https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908\n- https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774\n- https://github.com/chalk/ansi-regex/releases/tag/v6.0.1\n- https://www.oracle.com/security-alerts/cpuapr2022.html\n- https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+      "created": "2021-09-20T20:20:09.000Z",
+      "reported_by": null,
+      "title": " Inefficient Regular Expression Complexity in chalk/ansi-regex",
+      "npm_advisory_id": null,
+      "overview": "ansi-regex is vulnerable to Inefficient Regular Expression Complexity",
+      "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+    }
+  },
+  "muted": [],
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 6,
+      "high": 14,
+      "critical": 3
+    },
+    "dependencies": 96,
+    "devDependencies": 591,
+    "optionalDependencies": 5,
+    "totalDependencies": 687
+  },
+  "runId": "83e14440-fc63-4649-a662-c69e91962c2a"
+}
