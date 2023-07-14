@@ -32,10 +32,12 @@ if (process.stdin.isTTY) {
   program.parse(process.argv);
 } else {
   process.stdin.on('readable', () => {
-    const chunk = (this as any)?.read();
+    const chunk = process.stdin.read();
     if (chunk !== null) {
       stdin += chunk;
     }
   });
-  process.stdin.on('end', () => program.parse(process.argv));
+  process.stdin.on('end', () => {
+    program.parse(process.argv);
+  });
 }
