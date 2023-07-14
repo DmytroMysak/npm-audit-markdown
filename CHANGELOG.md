@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.1.1...v1.2.0) (2023-07-14)
+
+### Features
+
+- **readable:** improve readable style from tty ([9a16b63](https://github.com/DmytroMysak/npm-audit-markdown/commit/9a16b63dcd6f5744e8a1fffc585d2c8d4cdf16d7))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.1.1](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.1.0...v1.1.1) (2023-07-14)
 
 ### Bug Fixes
