@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.0.2...v1.0.3) (2023-07-14)
+
+### Bug Fixes
+
+- **package:** fixed command name in package-lock.json ([9909575](https://github.com/DmytroMysak/npm-audit-markdown/commit/990957579b6e8982b5ae7d5d7c2c4f51b224f917))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.0.2](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.0.1...v1.0.2) (2023-07-14)
 
 ### Bug Fixes
