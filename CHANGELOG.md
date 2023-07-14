@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.0.3...v1.1.0) (2023-07-14)
+
+### Features
+
+- **cli:** fixed read line ([3315c36](https://github.com/DmytroMysak/npm-audit-markdown/commit/3315c36f00da6a1105d74da30b1a7ed1ab37a195))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.0.3](https://github.com/DmytroMysak/npm-audit-markdown/compare/v1.0.2...v1.0.3) (2023-07-14)
 
 ### Bug Fixes
