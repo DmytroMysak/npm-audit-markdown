@@ -54,7 +54,7 @@ export async function generateReportFile(input?: Record<string, unknown>): Promi
     throw new Error('No JSON provided');
   }
   if (!input.metadata && input.updated) {
-    throw new Error(`Sorry! You can't use ${chalk.underline('npm audit fix')} with npm-audit-markdown.`);
+    throw new Error(`Sorry! You can't use ${chalk.underline('npm audit fix')} with @netly/npm-audit-markdown.`);
   }
   if (!input.metadata) {
     throw new Error(
