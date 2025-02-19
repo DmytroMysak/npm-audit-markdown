@@ -36,7 +36,7 @@
     "@types/dot": "1.1.5",
     "@types/mocha": "10.0.1",
     "chai": "4.3.7",
-    "mocha": "10.2.0",
+    "mocha": "10.8.2",
     "mock-fs": "5.2.0",
     "npm-check-updates": "^16.10.15",
     "rimraf": "^5.0.1",
